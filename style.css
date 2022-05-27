@@ -1,0 +1,248 @@
+@font-face {
+  font-family: ClarityCity;
+  font-weight: 400;
+  src: local("ClarityCity Regular"), local("ClarityCity-Regular"), url(https://www.courtbouillon.org/static/fonts/ClarityCity-Regular.woff2);
+}
+
+@font-face {
+  font-family: ClarityCity;
+  font-weight: 700;
+  src: local("ClarityCity Bold"), local("ClarityCity-Bold"), url(https://www.courtbouillon.org/static/fonts/ClarityCity-Bold.woff2);
+}
+
+@font-face {
+  font-family: ClarityCity;
+  font-style: italic;
+  font-weight: 400;
+  src: local("ClarityCity RegularItalic"), local("ClarityCity-RegularItalic"), url(https://www.courtbouillon.org/static/fonts/ClarityCity-RegularItalic.woff2);
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: local("Inconsolata"), url(https://www.courtbouillon.org/static/fonts/Inconsolata-Regular.woff2);
+}
+
+html {
+  background: #f2f2f1 url(logo.svg) no-repeat 100% 10em / auto 100%;
+  border-top: 6px solid #e8403a;
+  box-sizing: border-box;
+}
+
+*[contenteditable=true] {
+  outline: none;
+}
+
+::selection {
+  background: #e8403a33;
+}
+
+.reveal .slides {
+  color: #333;
+  font-family: ClarityCity, sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.reveal .slides a {
+  color: inherit;
+  text-decoration-color: #3333;
+  transition: text-decoration-color 0.5s;
+}
+
+.reveal .slides a:hover,
+.reveal .slides a:focus {
+  text-decoration-color: #e8403a81;
+}
+
+.reveal .slides b,
+.reveal .slides strong {
+  font-weight: 700;
+}
+
+.reveal .slides code {
+  background: #3331;
+  border-radius: 0.2em;
+  font-family: Inconsolata, monospace;
+  font-size: 1.15em;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: -0.05em -0.1em;
+  padding: 0.05em 0.1em;
+}
+
+.reveal .slides pre {
+  background: #333;
+  border-radius: 5px;
+  color: #f2f2f1;
+  font-size: 1em;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0 1em;
+}
+
+.reveal .slides pre code {
+  background: transparent;
+  font-size: 1em;
+  line-height: inherit;
+  max-height: none;
+  padding: 0;
+}
+
+.reveal .slides ul li {
+  list-style: square;
+}
+
+.reveal .slides h1 {
+  bookmark-level: none;
+  color: #e8403a;
+  font-size: 3.6em;
+  font-weight: 400;
+  hyphens: none;
+  -webkit-hyphens: none;
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+  margin: 0 0 0.4em 0;
+}
+
+.reveal .slides h2 {
+  color: #e8403a;
+  font-size: 2.1em;
+  font-weight: 400;
+  hyphens: none;
+  -webkit-hyphens: none;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin: 0.5em 0 1em 0;
+}
+
+.reveal .slides h3 {
+  font-size: 2.1em;
+  hyphens: none;
+  -webkit-hyphens: none;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin: 0.5em 0 1em 0;
+}
+
+.reveal .slides h4 {
+  color: #e8403a;
+  hyphens: none;
+  -webkit-hyphens: none;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: underline;
+  margin: 0.5em 0 1em 0;
+}
+
+.reveal .slides sup {
+  line-height: 0.8;
+  font-size: 0.7em;
+}
+
+.reveal .slides p {
+  line-height: 1.35;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.reveal .slides ul,
+.reveal .slides ol {
+  line-height: 1.35;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.reveal .slides ul + ul,
+.reveal .slides ul + ol,
+reveal .slides ol + ul,
+reveal .slides ol + ol {
+  margin-top: 1em;
+}
+
+.reveal .slides table {
+  font-size: 0.75em;
+  line-height: 1;
+  margin: 1.5em auto;
+}
+
+.reveal .slides table td,
+.reveal .slides table th {
+  padding: 0.35em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.reveal .slides table th {
+  background-color: #6661;
+  font-weight: normal;
+  font-variant: small-caps;
+}
+
+.reveal .slide-number {
+  font-size: 1em;
+  font-weight: 500;
+  color: #1A2531;
+}
+
+.reveal .slide-number {
+  font-size: 1em;
+  font-weight: 500;
+  color: #e8403a;
+}
+
+.reveal .controls {
+  border-color: #1A2531 !important;
+  opacity: 0.1;
+  transition: 1s;
+}
+
+.reveal .controls:hover {
+  opacity: 0.5;
+}
+
+.reveal .progress {
+  height: 6px;
+}
+
+.reveal .progress span {
+  background: #e8403a;
+}
+
+@media weasyprint {
+  @page {
+    font-family: ClarityCity, sans-serif;
+    margin: 2mm 0;
+    size: 70cm 50cm;
+
+    @top-center {
+      background: #e8403a;
+      color: #e8403a55;
+      content: counter(page) '   ';
+      font-size: 30pt;
+      line-height: 3;
+      text-align: right;
+      vertical-align: 0;
+      width: 100%;
+    }
+
+    @bottom-center {
+      background: #e8403a;
+      content: '';
+      width: 100%;
+    }
+  }
+
+  html {
+    background-position: 100% 8cm;
+    border: 0;
+    padding: 0 5cm;
+  }
+
+  #bars {
+    display: none;
+  }
+}
