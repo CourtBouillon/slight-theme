@@ -95,6 +95,12 @@ html {
   list-style: square;
 }
 
+.reveal .slides ul li,
+.reveal .slides ol li {
+  margin-bottom: 0.35em;
+  margin-top: 0.35em;
+}
+
 .reveal .slides h1 {
   bookmark-level: none;
   color: #e8403a;
