@@ -83,6 +83,10 @@ html {
   padding: 0 1em;
 }
 
+.reveal .slides pre + pre {
+  margin-top: 1em;
+}
+
 .reveal .slides pre code {
   background: transparent;
   font-size: 1em;
