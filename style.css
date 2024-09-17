@@ -1,25 +1,25 @@
 @font-face {
   font-family: ClarityCity;
   font-weight: 400;
-  src: local("ClarityCity Regular"), local("ClarityCity-Regular"), url(https://www.courtbouillon.org/static/fonts/ClarityCity-Regular.woff2);
+  src: local("ClarityCity Regular"), local("ClarityCity-Regular"), url(ClarityCity-Regular.woff2);
 }
 
 @font-face {
   font-family: ClarityCity;
   font-weight: 700;
-  src: local("ClarityCity Bold"), local("ClarityCity-Bold"), url(https://www.courtbouillon.org/static/fonts/ClarityCity-Bold.woff2);
+  src: local("ClarityCity Bold"), local("ClarityCity-Bold"), url(ClarityCity-Bold.woff2);
 }
 
 @font-face {
   font-family: ClarityCity;
   font-style: italic;
   font-weight: 400;
-  src: local("ClarityCity RegularItalic"), local("ClarityCity-RegularItalic"), url(https://www.courtbouillon.org/static/fonts/ClarityCity-RegularItalic.woff2);
+  src: local("ClarityCity RegularItalic"), local("ClarityCity-RegularItalic"), url(ClarityCity-RegularItalic.woff2);
 }
 
 @font-face {
   font-family: Inconsolata;
-  src: local("Inconsolata"), url(https://www.courtbouillon.org/static/fonts/Inconsolata-Regular.woff2);
+  src: local("Inconsolata"), url(Inconsolata-Regular.woff2);
 }
 
 html {
@@ -77,6 +77,7 @@ html {
   border-radius: 5px;
   box-shadow: 0.25em 0.25em 1em #3338;
   color: #f2f2f1;
+  font-family: Inconsolata, monospace;
   font-size: 1em;
   line-height: 1.1;
   margin: 0;
