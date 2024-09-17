@@ -117,6 +117,7 @@ html {
   line-height: 0.9;
   margin: 0 0 0.4em 0;
   text-shadow: 0.02em 0.02em 0.03em #6001;
+  text-wrap-style: balance;
 }
 
 .reveal .slides h2 {
@@ -129,6 +130,7 @@ html {
   line-height: 1;
   margin: 0 0 1em 0;
   text-shadow: 0.03em 0.03em 0.05em #6001;
+  text-wrap-style: balance;
 }
 
 .reveal .slides h3 {
@@ -140,6 +142,7 @@ html {
   line-height: 1;
   margin: 0 0 1em 0;
   text-shadow: 0.04em 0.04em 0.05em #2002;
+  text-wrap-style: balance;
 }
 
 .reveal .slides h4 {
@@ -150,6 +153,7 @@ html {
   font-weight: 400;
   margin: 0 0 1em 0;
   text-shadow: 0.04em 0.04em 0.05em #2002;
+  text-wrap-style: balance;
 }
 
 .reveal .slides sup {
