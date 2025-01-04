@@ -64,6 +64,7 @@ html {
 .reveal .slides code {
   background: #3331;
   border-radius: 0.2em;
+  color: #f2f2f1;
   font-family: Inconsolata, monospace;
   font-size: 1.15em;
   line-height: 1;
